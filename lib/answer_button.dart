@@ -16,7 +16,7 @@ final void Function() onTap;
     return ElevatedButton(onPressed: onTap,
     style: ElevatedButton.styleFrom(
       padding: const EdgeInsets.only(top: 10),
-      backgroundColor: const Color.fromARGB(255, 7, 23, 165),
+      backgroundColor: Color.fromARGB(255, 30, 16, 223),
       foregroundColor: Colors.white,
       shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
     ),
